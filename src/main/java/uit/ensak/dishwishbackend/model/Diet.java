@@ -18,8 +18,7 @@ public class Diet {
     private Long id;
 
     private String title;
-//
-//    @OneToMany(mappedBy = "diet")
-//    @JsonIgnoreProperties("diet")
-//    private List<Client> clients;
+     public Diet(String title) {
+        this.title = title;
+    }
 }

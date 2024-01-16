@@ -9,6 +9,7 @@ import uit.ensak.dishwishbackend.model.Address;
 @NoArgsConstructor
 @Builder
 public class ClientDTO {
+    private Long id;
 
     private String firstName;
 
